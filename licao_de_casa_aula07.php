@@ -95,10 +95,10 @@
     </form>
 
     <?php 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") { // Verifica se o formulário foi enviado
         // Pega o valor da idade do formulário e converte para número
-        $idade = (int)$_POST["idade"];
-        $mensagem_ternario = "";
+        $idade = (int)$_POST["idade"]; // pega a infromação que o usuário digitou no formulário e prepara para ser usada no programa. O int está determinado que o valor term que ser inteiro se não, não haverá classifcação
+        $mensagem_ternario = ""; // variável que usará para armazenar a mensagem que será gerada pelo operador ternário e "" inicializa a variável string vazia
 
         // Usando IF e operadores de comparação e lógicos para a classificação principal
         if ($idade <= 12) {
