@@ -91,8 +91,38 @@ $e=($a>=$c) ? "Verdadeiro" : "Falso";
 echo "d = $d<br>e = $e";
 ?>
 <br>
-<h2>Formulário de idade e resultado com Operador de Comparação, Lógico e Aritmético></h2>
-    <form method='post' "action="> 
-        Idade: <input type="int" name="Idade: "><br>
+
+<h2>Formulário de idade e resultado com Operador de Comparação, Lógico e Ternário></h2>
+    <form method='post' action""> 
+        Idade: <input type="number" name="Idade: " required><br>
+        <button type="submit">Classificar<button>
 </form>
+
+<?phpif ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Pega o valor da idade do formuário e converte para número
+    $idade = (int)$_POST["idade"];
+    $mensagem_ternario = "";
+
+     // Usando IF e operadores de comparação e lógicos para a classificação principal
+        if ($idade <= 12) {
+            $mensagem_principal = "Resultado: Criança.";
+        } elseif ($idade > 12 && $idade < 18) {
+            $mensagem_principal = "Resultado: Adolescente.";
+        } elseif ($idade >= 18 && $idade < 60) {
+            $mensagem_principal = "Resultado: Adulto.";
+        } else {
+            $mensagem_principal = "Resultado: Idoso.";
+        }
+
+        // Usando o operador ternário para uma mensagem extra
+        $mensagem_ternario = ($idade >= 60) ? "Você já entrou na terceira idade." : "Você ainda não chegou na terceira idade.";
+        
+        // Exibe os resultados
+        echo "<br><h3>" . $mensagem_principal . "</h3>";
+        echo "<h4>" . $mensagem_ternario . "</h4>";
+    }
+    ?>
+</body>
+</html>
+}
 
