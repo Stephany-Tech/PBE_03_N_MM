@@ -42,6 +42,7 @@ $d= !($a<=$b);
 var_dump($c);
 echo "<br>";
 var_dump($d);
+echo "<br>";
 ?>
 
 <h3> E - and - &&</h3>
