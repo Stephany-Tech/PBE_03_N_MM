@@ -95,4 +95,4 @@ echo "d = $d<br>e = $e";
     <form method='post' "action="> 
         Idade: <input type="int" name="Idade: "><br>
 </form>
-//teste
+
