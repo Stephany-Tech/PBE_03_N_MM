@@ -42,7 +42,6 @@ $d= !($a<=$b);
 var_dump($c);
 echo "<br>";
 var_dump($d);
-echo "<br>";
 ?>
 
 <h3> E - and - &&</h3>
@@ -57,7 +56,7 @@ echo "<br>";
 var_dump($e);
 ?>
 
-<h3> Ou - or - II</h3>
+<h3> Ou - or - ||</h3>
 <?php
 $a=50;
 $b=120;
@@ -91,3 +90,9 @@ $d=($a<=$b) ? "Verdadeiro" : "Falso";
 $e=($a>=$c) ? "Verdadeiro" : "Falso";
 echo "d = $d<br>e = $e";
 ?>
+<br>
+<h2>Formulário de idade e resultado com Operador de Comparação, Lógico e Aritmético></h2>
+    <form method='post' "action="> 
+        Idade: <input type="int" name="Idade: "><br>
+</form>
+//teste
