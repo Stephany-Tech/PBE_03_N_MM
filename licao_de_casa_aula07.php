@@ -9,6 +9,8 @@
     <h1>Operadores - Comparação, Lógico, Ternário</h1>
 </body>
 </html>
+
+
 <h2>Operador de Comparação</h2>
 <?php
 $a=10;
@@ -27,7 +29,10 @@ echo "Menor ou igual: ".($a<=$b)."<br>"; // <= menor ou igual
 echo "Maior: ".($c>$b)."<br>"; //> maior
 echo "Maior ou igual: ".($c>=$b)."<br>"; // >= maior ou igual 
 ?>
+
+
 <h2>Operador lógico</h2>
+
 <h3> Não - not - !</h3>
 <?php
 $a=50;
@@ -38,6 +43,7 @@ var_dump($c);
 echo "<br>";
 var_dump($d);
 ?>
+
 <h3> E - and - &&</h3>
 <?php
 $a=50;
@@ -49,6 +55,7 @@ var_dump($d);
 echo "<br>";
 var_dump($e);
 ?>
+
 <h3> Ou - or - II</h3>
 <?php
 $a=50;
@@ -60,6 +67,7 @@ var_dump($d);
 echo "<br>";
 var_dump($e);
 ?>
+
 <h3>Xor</h3>
 <?php
 $a=50;
@@ -71,6 +79,7 @@ var_dump($d);
 echo "<br>";
 var_dump($e);
 ?>
+
 
 <h2>Operador Ternário</h2> 
 <?php
