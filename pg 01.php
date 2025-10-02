@@ -7,7 +7,7 @@
 <body>
 <h1>PG04_01</h1>  
   <?php 
-
+    echo "Hello Word";
   ?> 
   
   

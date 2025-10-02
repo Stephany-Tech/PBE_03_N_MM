@@ -8,13 +8,12 @@
 <body>
     h1>"pg04_02</h1>
     <?php
-    // phpinfo
-    //escrever o que entendi da aula 
-    /**/
-    escrever 
-    em 
-    varias
-    linhas
+    $valor=7.5;
+    $ano=2024;
+     $nome="Uninove";
+    var_dump($valor);echo "<br>";
+    var_dump($ano);echo "<br>";
+    var_dump($nome);
     ?>
 </body>
 </html>
