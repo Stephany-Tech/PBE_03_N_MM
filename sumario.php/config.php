@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sumário - Aula10_01</title>
+    <title>Config.php</title>
 </head>
 <body>
-    <h1>Sumário</h1>
-    <h2>Aula 16/10/2025</h2>
-    <h3>config.php<h3>
+    <h1>Confing</h1>
 <?php
 // Define o tipo de banco de dados a ser usado: 'sqlite' ou 'mysql'
 define('DB_TYPE', 'sqlite'); // Altere para 'mysql' para usar o MySQL
@@ -28,6 +26,5 @@ else {
      die("SGBD não definido! <b>" . DB_TYPE."</b>");
  }
 ?>
-    
 </body>
 </html>
