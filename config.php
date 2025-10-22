@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Config.php</title>
-</head>
-<body>
-    <h1>Confing</h1>
 <?php
 // Define o tipo de banco de dados a ser usado: 'sqlite' ou 'mysql'
 define('DB_TYPE', 'sqlite'); // Altere para 'mysql' para usar o MySQL
@@ -26,5 +17,3 @@ else {
      die("SGBD não definido! <b>" . DB_TYPE."</b>");
  }
 ?>
-</body>
-</html>
