@@ -40,7 +40,7 @@ echo "<br>d = ".$d;//d = 18
     $b = "Maria ";
     echo "$b <br>";//Maria
     echo $a . $b;//Bete Maria 
-    $b .= $a;// a variavel b recebe o valor que ela já tem e junta com a variável a - $Maria Bete
+    $b .= $a;// a variavel b recebe o valor que ela já tem e junta com a variável a - $Maria Bete // O novo valor de b é Maria Bete --> b = b . a --> b = Maria . Bete --> b = Maria Bete
     $b.= "Pedro";//$b=Maria Bete Pedro
     echo "<br>$b"; 
 ?>

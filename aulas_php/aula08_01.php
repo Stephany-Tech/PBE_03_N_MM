@@ -86,7 +86,7 @@ echo "Maior ou igual: ".($c>=$b)."<br>"; // 1
     var_dump ($f);
     ?>
 
-    <h3>Xor</h3>
+    <h3>Xor</h3> 
     <?php
     $a=50;
     $b=120;
@@ -96,13 +96,13 @@ echo "Maior ou igual: ".($c>=$b)."<br>"; // 1
     var_dump($d);
     echo "<br>";
     var_dump($e);
-    $g=(($a<=$b) xor ($a>=200)); // V // F = TRUE 
+    $g=(($a<=$b) xor ($a>=200)); // V // F = TRUE  --> 2 condições igauis = false; 2 condições diferentes = true
     echo "<br>";
     var_dump($g);
     ?>
-
-     <h2>Operador Ternário</h2>
     <?php
+
+    echo "<h2>Operador Ternário</h2>"; // Avalia condições e retorna valores diferentes conforme o resultado da avaliação
     $a=50;
     $b=120;
     $c=200;

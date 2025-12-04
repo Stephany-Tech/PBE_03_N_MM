@@ -67,7 +67,7 @@ também deu certo
   date_default_timezone_set("America/Sao_Paulo"); // Para determinar o fuso horário
   echo date("d/m/y H:i:s")."<br>";
   
-  $diaSemana = date('w');  // Retorna o dia da semana em número (0-6)
+  $diaSemana = date('w');  // Retorna o dia da semana em número do seu servidor (0-6)
 
 switch ($diaSemana) {
     case 0:
